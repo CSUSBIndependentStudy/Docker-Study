@@ -19,4 +19,13 @@ allow easier upgrade methods.
   ```
   sude apt-get install apt-transport-https curl gnupg2 software-properties-common
   ```
-3. 
+3. Add Docker's official GPG key:
+
+  ```
+  curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+  ```
+  
+  *Be sure to verify that the key ID is:
+  ```
+  9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88
+  ```
