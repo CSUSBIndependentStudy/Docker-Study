@@ -17,7 +17,7 @@ allow easier upgrade methods.
 2. Install the packages that will allow ```apt``` to use a repository:
 
   ```
-  sude apt-get install apt-transport-https curl gnupg2 software-properties-common
+  sudo apt-get install apt-transport-https curl gnupg2 software-properties-common
   ```
 3. Add Docker's official GPG key:
 
@@ -38,7 +38,7 @@ allow easier upgrade methods.
   sub   4096R/F273FCD8 2017-02-22
   ```
   
-  4. Next, we're going to tell Debian to check the "stable" repository when installing/updating. Please that that you will
+  4. Next, we're going to tell Debian to check the "stable" repository when installing/updating. You will
   always need the stable repository, even if you're adding the "edge" or "test" repositories later. 
   
   ```
