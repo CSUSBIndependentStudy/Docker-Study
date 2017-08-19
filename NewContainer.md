@@ -36,5 +36,5 @@ localhost:9000
 
 3. You should see a login page that looks like this. 
 
-![Screenshot] (https://user-images.githubusercontent.com/30271499/29490242-f6712948-84ea-11e7-928d-51a25cdb12a3.jpeg)
+![Screenshot](https://user-images.githubusercontent.com/30271499/29490242-f6712948-84ea-11e7-928d-51a25cdb12a3.jpeg)
 
