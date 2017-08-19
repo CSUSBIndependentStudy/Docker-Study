@@ -38,3 +38,4 @@ localhost:9000
 
 ![Screenshot](https://user-images.githubusercontent.com/30271499/29490242-f6712948-84ea-11e7-928d-51a25cdb12a3.jpeg)
 
+You've just setup your first container!
