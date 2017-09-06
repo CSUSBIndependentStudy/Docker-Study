@@ -59,5 +59,5 @@ docker rmi [OPTIONS] IMAGE [IMAGE...]
 
 I thought I'd put a screenshot of the Glances program here at the end of this lesson just to show what it is and looks like.
 
-![Screenshot](https://user-images.githubusercontent.com/30271499/30092061-a78d98ea-9271-11e7-9e0f-76e8f49357fe.png)
+![Screenshot](https://user-images.githubusercontent.com/30271499/30092097-ed62f964-9271-11e7-9838-21de67c65986.png)
 
