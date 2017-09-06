@@ -28,3 +28,33 @@ Now, if we switch over to Portainer, this is what we can see:
 Click either the list of containers in the middle of the screen, or "Containers" on the left sidebar. You will see the same list as before, but it's now in a format that is easier to understand and more manageble.
 
 ![Screenshot](https://user-images.githubusercontent.com/30271499/30091604-4f0d4b86-926f-11e7-9298-f0876fdcec92.png)
+
+From the top, you can see all the container management commands in one convenient location. To do each of these in the terminal, you have to type a separate command. For instance, if you want to restart the Glances container, you have to type:
+
+```
+docker restart c06f0398bce2
+```
+So, not only do you have to do the restart command, but if it's been a while since you looked at the container ID, you have to do another "docker ps" command to grab that, THEN you do the restart command. On Portainer, all you have to do is hit "Restart" and you're done.
+
+Here is a list of the commands (from left to right in Portainer) you have to input manually if you choose to:
+```
+docker start [OPTIONS] CONTAINER [CONTAINER...]
+docker stop [OPTIONS] CONTAINER [CONTAINER...]
+docker kill [OPTIONS] CONTAINER [CONTAINER...]
+docker restart [OPTIONS] CONTAINER [CONTAINER...]
+docker pause CONTAINER [CONTAINER...]
+***NO EQUIVALENT COMMAND FOR RESUME***
+docker rm [OPTIONS] CONTAINER [CONTAINER...]
+```
+
+For managing images, just click on "Images" on the left sidebar, and you get a similar view as for containers. You can remove images
+from here as well.
+
+![Screenshot](https://user-images.githubusercontent.com/30271499/30091982-2addf6a0-9271-11e7-8d3b-a38f646dbc5d.png)
+
+If you wish to remove images from the Terminal, type:
+```
+docker rmi [OPTIONS] IMAGE [IMAGE...]
+```
+
+
