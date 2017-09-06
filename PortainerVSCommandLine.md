@@ -17,4 +17,4 @@ docker ps -a
 ```
 From the terminal, this is what the command prints:
 
-![Screenshot]()
+![Screenshot](https://user-images.githubusercontent.com/30271499/30091366-16906546-926e-11e7-90cb-2a5f9a695e5f.JPG)
