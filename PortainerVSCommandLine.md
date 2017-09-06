@@ -24,3 +24,7 @@ You get a list with the Container ID, Image name, Command(not important), when i
 Now, if we switch over to Portainer, this is what we can see:
 
 ![Screenshot](https://user-images.githubusercontent.com/30271499/30091521-df541e8c-926e-11e7-9024-cae68676b02c.png)
+
+Click either the list of containers in the middle of the screen, or "Containers" on the left sidebar. You will see the same list as before, but it's now in a format that is easier to understand and more manageble.
+
+![Screenshot](https://user-images.githubusercontent.com/30271499/30091604-4f0d4b86-926f-11e7-9298-f0876fdcec92.png)
