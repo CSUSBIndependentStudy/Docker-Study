@@ -15,4 +15,6 @@ Side note: If you're wanting to list all containers (regarless of whether they'r
 ```
 docker ps -a
 ```
+From the terminal, this is what the command prints:
 
+![Screenshot]()
