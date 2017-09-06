@@ -10,7 +10,7 @@ Use the following command to list all running containers in Docker:
 ```
 docker ps
 ```
-Side note: If you're wanting to list all containers (regarless of whether they're running or stopped) use:
+Also note: If you're wanting to list all containers (regarless of whether they're running or stopped) use:
 
 ```
 docker ps -a
