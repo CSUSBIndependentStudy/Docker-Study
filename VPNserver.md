@@ -31,3 +31,5 @@ Next, we need to adjust our home router settings to allow the ports to be forwar
 I use an Apple Time Capsule, so here is my settings screen for that. You can easily find out how to 
 perform port forwarding for your router by searching Google. The UDP ports 500 and 4500 need to be opened.
 
+![Screenshot](https://user-images.githubusercontent.com/30271499/30568581-cab2fa5e-9c8a-11e7-8877-5802dc1fa299.jpg)
+
