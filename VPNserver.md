@@ -33,3 +33,10 @@ perform port forwarding for your router by searching Google. The UDP ports 500 a
 
 ![Screenshot](https://user-images.githubusercontent.com/30271499/30568581-cab2fa5e-9c8a-11e7-8877-5802dc1fa299.jpg)
 
+## IPSec VPN Server setup
+Here, we'll be using a Docker program to setup the VPN server automatically. Run the following Docker command:
+
+```
+docker run --name ipsec-vpn-server --restart=always -p 500:500/udp -p 4500:4500/udp -v /lib/
+modules:/lib/modules:ro -d --privileged hwdsl2/ipsec-vpn-server
+```
