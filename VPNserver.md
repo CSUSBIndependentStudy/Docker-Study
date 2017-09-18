@@ -39,3 +39,8 @@ Here, we'll be using a Docker program to setup the VPN server automatically. Run
 ```
 docker run --name ipsec-vpn-server --restart=always -p 500:500/udp -p 4500:4500/udp -v /lib/ modules:/lib/modules:ro -d --privileged hwdsl2/ipsec-vpn-server
 ```
+Now go into the logs of the container, and you'll find the Server IP, the IPsec PSK, Username, and Password of 
+the VPN server. Make sure to write all of these down as you need them to connect.
+
+Congratulations, now you can use any device to connect to your VPN server, ensuring that you use the credentials
+listed inside the container logs, as well as the DOMAIN for your DNS service.
