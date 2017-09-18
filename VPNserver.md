@@ -20,5 +20,6 @@ to choose from.
 3. Fill in your information and then check your email for a "verification email."
 4. Click on "DDNS Services", then "+ Add".
 5. Fill in the Host area with whatever you want, and pick whichever top level you want. This 
-isn't an amportant part of the process. 
+isn't an amportant part of the process.
+
 ![Screenshot](https://user-images.githubusercontent.com/30271499/30568130-7162fb90-9c88-11e7-9206-04fddec9595a.png)
