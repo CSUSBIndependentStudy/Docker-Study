@@ -42,5 +42,7 @@ docker run --name ipsec-vpn-server --restart=always -p 500:500/udp -p 4500:4500/
 Now go into the logs of the container, and you'll find the Server IP, the IPsec PSK, Username, and Password of 
 the VPN server. Make sure to write all of these down as you need them to connect.
 
+![Screenshot](https://user-images.githubusercontent.com/30271499/30569476-fd9f1da8-9c8f-11e7-812d-51e96013520a.png)
+
 Congratulations, now you can use any device to connect to your VPN server, ensuring that you use the credentials
 listed inside the container logs, as well as the DOMAIN for your DNS service.
