@@ -23,6 +23,7 @@ to choose from.
 isn't an amportant part of the process.
 
 ![Screenshot](https://user-images.githubusercontent.com/30271499/30568130-7162fb90-9c88-11e7-9206-04fddec9595a.png)
+
 6. Click "Save". Your DNS is now setup!
 
 ## Router Port Forwarding
