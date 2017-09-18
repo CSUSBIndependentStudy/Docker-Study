@@ -23,3 +23,10 @@ to choose from.
 isn't an amportant part of the process.
 
 ![Screenshot](https://user-images.githubusercontent.com/30271499/30568130-7162fb90-9c88-11e7-9206-04fddec9595a.png)
+6. Click "Save". Your DNS is now setup!
+
+## Router Port Forwarding
+Next, we need to adjust our home router settings to allow the ports to be forwarded for this service. 
+I use an Apple Time Capsule, so here is my settings screen for that. You can easily find out how to 
+perform port forwarding for your router by searching Google. The UDP ports 500 and 4500 need to be opened.
+
